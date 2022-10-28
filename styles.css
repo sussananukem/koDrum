@@ -74,14 +74,24 @@ footer {
     font-family: 'Indie Flower', cursive;
 }
 
-/* SMALL PHONE */
 
-@media only screen and (max-width: 317px) {
+/* SMALL PHONE */
+@media only screen and (min-width: 100px) {
 
     /* TITLE TOP */
     .headerOne {
 
-        font-size: 1rem;
+        font-size: 2rem;
+
+    }
+
+    /* DRUM KIT- MIDDLE */
+    .drum {
+
+        width: 80px;
+        height: 80px;
+        font-size: 2rem;
+
 
     }
 
@@ -89,16 +99,8 @@ footer {
 
 }
 
-/* SMALL PHONE */
+@media only screen and (min-width: 268px) {
 
-@media only screen and (max-width: 368px) {
-
-    /* TITLE TOP */
-    .headerOne {
-
-        font-size: 3rem;
-
-    }
 
     /* DRUM KIT- MIDDLE */
     .drum {
@@ -111,16 +113,43 @@ footer {
     }
 
 
+
 }
 
-/* MEDIUM PHONE */
 
-@media only screen and (max-width: 767px) {
+
+@media only screen and (min-width: 320px) {
 
     /* TITLE TOP */
     .headerOne {
 
-        font-size: 2.5rem;
+        font-size: 3rem;
+
+    }
+
+
+
+
+}
+
+/* TABLET  */
+
+@media only screen and (min-width: 768px) {
+
+    /* TITLE TOP */
+    .headerOne {
+
+        font-size: inherit;
+    }
+
+    /* DRUM KIT- MIDDLE */
+    .drum {
+
+        width: inherit;
+        height: inherit;
+        font-size: inherit;
+
+
     }
 
 }
