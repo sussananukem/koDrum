@@ -1,0 +1,73 @@
+#body {
+    background-color: #283149;
+    color: #DBEDF3;
+    font-family: 'Arvo', cursive;
+}
+
+
+.headerOne {
+
+    font-size: 5rem;
+    text-shadow: 3px 0 #DA0463;
+    ;
+}
+
+/* DRUM KIT- MIDDLE */
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+}
+
+.kit {
+    margin: 10% auto;
+}
+
+.drum {
+    display: inline-block;
+    border: 10px solid #404B69;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: 5rem;
+    font-weight: 900;
+    outline: none;
+    line-height: 2;
+}
+
+.w {
+    background-image: url("assets/images/tom1.png");
+}
+
+.a {
+    background-image: url("assets/images/tom2.png");
+}
+
+.s {
+    background-image: url("assets/images/tom3.png");
+}
+
+.d {
+    background-image: url("assets/images/tom4.png");
+}
+
+.j {
+    background-image: url("assets/images/snare.png");
+}
+
+.k {
+    background-image: url("assets/images/crash.png");
+}
+
+.l {
+    background-image: url("assets/images/kick.png");
+}
+
+/* FOOTER */
+footer {
+    color: #DBEDF3;
+    font-family: 'Indie Flower', cursive;
+}
