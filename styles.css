@@ -76,7 +76,22 @@ footer {
 
 /* SMALL PHONE */
 
-@media only screen and (max-width: 321px) {
+@media only screen and (max-width: 317px) {
+
+    /* TITLE TOP */
+    .headerOne {
+
+        font-size: 1rem;
+
+    }
+
+
+
+}
+
+/* SMALL PHONE */
+
+@media only screen and (max-width: 368px) {
 
     /* TITLE TOP */
     .headerOne {
@@ -105,7 +120,7 @@ footer {
     /* TITLE TOP */
     .headerOne {
 
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
 }
