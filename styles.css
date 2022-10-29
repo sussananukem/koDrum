@@ -27,14 +27,11 @@
 .drum {
     display: inline-block;
     border: 10px solid #404B69;
-    width: 150px;
-    height: 150px;
     background-color: white;
     color: #DA0463;
     text-shadow: 3px 0 #DBEDF3;
     border-radius: 10px;
     margin: 10px;
-    font-size: 5rem;
     font-weight: 900;
     outline: none;
     line-height: 2;
@@ -107,7 +104,7 @@ footer {
 
         width: 100px;
         height: 100px;
-        font-size: 3rem;
+        font-size: 5rem;
 
 
     }
@@ -127,6 +124,23 @@ footer {
 
     }
 
+
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+
+    /* DRUM KIT- MIDDLE */
+    .drum {
+
+        width: 150px;
+        height: 150px;
+        font-size: 3rem;
+
+
+    }
 
 
 
