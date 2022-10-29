@@ -131,25 +131,4 @@ footer {
 
 
 }
-
-/* TABLET  */
-
-@media only screen and (min-width: 768px) {
-
-    /* TITLE TOP */
-    .headerOne {
-
-        font-size: inherit;
-    }
-
-    /* DRUM KIT- MIDDLE */
-    .drum {
-
-        width: inherit;
-        height: inherit;
-        font-size: inherit;
-
-
-    }
-
-}
+ 
