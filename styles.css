@@ -131,7 +131,12 @@ footer {
 
 @media only screen and (min-width: 1024px) {
 
+   /* TITLE TOP */
+    .headerOne {
 
+        font-size: 5rem;
+
+    }
     /* DRUM KIT- MIDDLE */
     .drum {
 
